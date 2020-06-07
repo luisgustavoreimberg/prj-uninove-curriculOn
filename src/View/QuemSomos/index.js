@@ -1,9 +1,19 @@
 import React from 'react';
 
-function QuemSomos(){
+import HomeHeader from './home-header/header.js';
+import HomeContent from './home-content/content.js';
+import HomeFooter from './home-footer/footer.js';
+
+import '../general_index.css';
+
+function Home(){
     return (
-        <h1> QUEM SOMOS </h1>
+        <>
+            <HomeHeader/>
+            <HomeContent/>
+            <HomeFooter/>
+        </>
     );
 }
 
-export default QuemSomos;
+export default Home;

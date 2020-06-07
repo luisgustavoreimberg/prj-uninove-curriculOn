@@ -15,8 +15,8 @@ export default class HomeHeader extends Component{
                             </span>
                         </span>
                     </NavbarBrand>
-                    <Button outline color="success" className="navbar-btn" href="/quem-somos">
-                        <span>Quem Somos</span>
+                    <Button outline color="success" className="navbar-btn" href="/">
+                        <span>Página Inicial</span>
                     </Button>
                 </Navbar>
             </div>
