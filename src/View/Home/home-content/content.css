@@ -42,6 +42,15 @@
     display: flex;
 }
 
+.modal-erro-preenchimento{
+    color: rgba(253, 43, 43, 0.767);
+    font-size: 1em;
+    font-weight: 700;
+}
+.destivarOpc{
+    display: nome;
+}
+
 @media (max-width: 900px) {
     .img_sites_externos{
         display: inline-block;
